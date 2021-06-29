@@ -23,7 +23,7 @@ public class RoomRepositoryFavorites {
     }
 
     void insertData(List<RoomFavorites> roomFavorites) {
-        mRoomDatabaseFavorites.mDatabaseWriteExecutor.execute(() -> mRoomDaoFavorites.insertData(roomFavorites));
+        mRoomDaoFavorites.insertData(roomFavorites);
     }
 
 }

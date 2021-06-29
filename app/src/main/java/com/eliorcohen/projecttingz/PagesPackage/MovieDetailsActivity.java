@@ -55,7 +55,6 @@ public class MovieDetailsActivity extends AppCompatActivity implements View.OnCl
         for (String str : mRoomFavorites.getGenre()) {
             sb.append(str).append(",");
         }
-
         genreMovieDetails.setText(sb.delete(sb.length() - 1, sb.length()));
     }
 
